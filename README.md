@@ -3,7 +3,7 @@
 Improving Sequential Recommendation via Subsequence Extraction
 
 ## Introduction
-This is the implementation of the paper Improving Sequential Recommendation via Subsequence Extraction (under double-blind review)
+This is the implementation of the paper Improving Sequential Recommendation via Subsequence Extraction (under double-blind review).
 
 ## Requirements
 + Python = 3.6
