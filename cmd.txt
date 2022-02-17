@@ -1,0 +1,25 @@
+ML1M
+
+nohup python train_transformer_np_5.py --dataset=SASRecM1M --n_interests=8 --n_layer=1 --n_neg=30 --lam=0 --l2=0.0001 --r_loss=0.0 --dropout=0.2 --max_len=200 --gpu=4 &
+
+
+Beauty
+
+
+nohup python train_transformer_np_5.py --dataset=SASRecBeauty --n_interests=2 --n_neg=30 --r_loss=0.0 --lam=0.0 --l2=0.0001 --gpu=4 &
+
+
+
+Video
+
+
+nohup python train_transformer_np_5.py --dataset=SASRecVideo --n_interests=2 --n_neg=30 --r_loss=0.0 --lam=0.0 --l2=0.0001 --gpu=4 &
+
+
+
+Steam
+
+
+nohup python train_transformer_np_5.py --dataset=SASRecSteam --n_interests=2 --n_neg=30 --r_loss=0.0 --lam=0.0 --l2=0.0000001 --dropout=0.1 --gpu=3 &
+
+
