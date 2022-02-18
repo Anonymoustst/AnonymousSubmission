@@ -17,6 +17,6 @@ This is the implementation of the paper Improving Sequential Recommendation via 
 
 Preprocess the data: python preprocess.py
 
-Train&Evaluate: python train_transformer_np_5.py --dataset=SASRecM1M --n_interests=8 --n_layer=1 --n_neg=30 --lam=0 --l2=0.0001 --r_loss=0.0 --dropout=0.2 --max_len=200 --gpu=1 &
+Train&Evaluate: python train_transformer_np_5.py --dataset=SASRecM1M --n_interests=8 --n_layer=2 --n_neg=30 --lam=0 --l2=0.0001 --r_loss=0.0 --dropout=0.2 --max_len=200 --gpu=1 &
 
 See the visualization: run visualize.ipynb in jupyter notebook
